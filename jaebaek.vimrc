@@ -41,6 +41,8 @@ nmap <silent> <Leader>8 :set ts=8 sw=8<CR>
 vmap <Tab> >gv
 vmap <S-Tab> <gv
 
-map <silent> <Leader>st :SyntasticToggleMode<CR>
-map <silent> <Leader>sc :SyntasticCheck<CR>
-map <silent> <Leader>sr :SyntasticReset<CR>
+" syntastic
+let g:syntastic_mode_map = { 'mode': 'passive', 'active_filetypes': [],'passive_filetypes': [] }
+
+map <silent> <Leader>s :SyntasticCheck<CR>
+map <silent> <Leader>r :SyntasticReset<CR>
