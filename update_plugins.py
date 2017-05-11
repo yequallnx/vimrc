@@ -54,6 +54,9 @@ vim-yankstack https://github.com/maxbrunsfeld/vim-yankstack
 lightline.vim https://github.com/itchyny/lightline.vim
 """.strip()
 
+### jaebaek: minibufexplorer.vim must be added
+###          from https://github.com/fholgado/minibufexpl.vim.git
+
 GITHUB_ZIP = '%s/archive/master.zip'
 
 SOURCE_DIR = path.join(path.dirname(__file__), 'sources_non_forked')
