@@ -66,7 +66,10 @@ dracula https://github.com/dracula/vim
 copilot.vim https://github.com/github/copilot.vim
 """.strip()
 
-GITHUB_ZIP = "%s/archive/master.zip"
+### jaebaek: minibufexplorer.vim must be added
+###          from https://github.com/fholgado/minibufexpl.vim.git
+
+GITHUB_ZIP = '%s/archive/master.zip'
 
 SOURCE_DIR = path.join(path.dirname(__file__), "sources_non_forked")
 
