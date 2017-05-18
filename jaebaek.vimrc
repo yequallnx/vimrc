@@ -46,3 +46,6 @@ let g:syntastic_mode_map = { 'mode': 'passive', 'active_filetypes': [],'passive_
 
 map <silent> <Leader>s :SyntasticCheck<CR>
 map <silent> <Leader>r :SyntasticReset<CR>
+
+map <silent> <Leader>x :CtrlP<CR>
+map <silent> <Leader>v :CtrlPMRUFiles<CR>
