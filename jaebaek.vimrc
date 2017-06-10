@@ -49,3 +49,7 @@ map <silent> <Leader>r :SyntasticReset<CR>
 
 map <silent> <Leader>x :CtrlP<CR>
 map <silent> <Leader>v :CtrlPMRUFiles<CR>
+
+map ,e :e <C-R>=expand("%:p:h") . "/" <CR>
+map ,t :tabe <C-R>=expand("%:p:h") . "/" <CR>
+map ,s :split <C-R>=expand("%:p:h") . "/" <CR>
