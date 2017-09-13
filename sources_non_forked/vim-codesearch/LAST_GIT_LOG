@@ -1,0 +1,10 @@
+commit 179860a2863ffd020a0429231b51666d1c6483c0 (HEAD -> master, origin/master, origin/HEAD)
+Merge: 7053dda 985ae79
+Author: Asanka Herath <asanka@gmail.com>
+Date:   Tue Jul 4 23:09:33 2017 -0400
+
+    Merge pull request #7 from chromium/travis
+    
+    Fix Travis CI build.
+
+

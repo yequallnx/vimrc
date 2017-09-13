@@ -1,0 +1,9 @@
+In the beginning, we search for 'hello world'. Fortunately there are lots of
+instances of this in the Chromium tree.
+
+  :CrSearch hello world
+  *hello_world.js* (glob)
+  *found in the LICENSE file* (glob)
+
+That should be it for a basic test case.
+
