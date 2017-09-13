@@ -1,6 +1,8 @@
 # Jaebaek
 
-Just git clone it and copy jaebaek.vimrc to ~/.vimrc
+For Jaebaek's custom setup, run:
+
+	sh ~/.vim_runtime/jaebaek.sh
 
 # The Ultimate vimrc
 
