@@ -54,3 +54,7 @@ map <silent> <Leader>v :CtrlPMRUFiles<CR>
 map ,e :e <C-R>=expand("%:p:h") . "/" <CR>
 map ,t :tabe <C-R>=expand("%:p:h") . "/" <CR>
 map ,s :split <C-R>=expand("%:p:h") . "/" <CR>
+
+map <silent> <Leader>b :BufExplorer<CR>
+
+map <silent> <Leader>s :source ~/.vim_runtime/syntax/spvasm.vim<CR>
